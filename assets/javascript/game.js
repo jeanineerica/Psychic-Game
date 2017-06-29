@@ -44,7 +44,7 @@ function reset () {
           document.getElementById("userswins").innerHTML = win;
           //call reset function
           reset();
-          alert("CONGRATULATIONS, YOU WIN!");
+          alert("yaaaaaaasssssss");
         } 
         else {
           //if letter guessed is wrong is it in the letters chosen so far array
@@ -71,7 +71,7 @@ function reset () {
         document.getElementById("computerwins").innerHTML = loss;
         //call reset function
         reset();
-        console.log("YOU LOST!");
+        console.log("You lost! Try again.");
       }
         
     };   
