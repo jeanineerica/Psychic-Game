@@ -74,31 +74,4 @@ function reset () {
         console.log("You lost! Try again.");
       }
         
-    };   
-      
-
- 
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    };  
