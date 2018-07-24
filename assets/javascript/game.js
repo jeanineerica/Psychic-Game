@@ -9,6 +9,7 @@ var letterchosensofar = [""];
 function start () {
   // Randomly chooses a choice from the options array. This is the Computer's guess.
   computerGuess = computerchoices[Math.floor(Math.random() * computerchoices.length)];
+  console.log(computerGuess);
  }; 
 
 function reset () {
@@ -71,7 +72,7 @@ function reset () {
         document.getElementById("computerwins").innerHTML = loss;
         //call reset function
         reset();
-        console.log("You lost! Try again.");
+        alert("You lost! Try again.");
       }
         
     };  
